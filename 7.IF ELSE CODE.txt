@@ -1,0 +1,35 @@
+                 7.IF ELSE CODE:
+
+
+CODE:
+
+
+#include <stdio.h>
+
+void main() {
+    int a,b;
+    printf("Enter A value: ");
+    scanf("%d",&a);
+    printf("Enter B value: ");
+    scanf("%d",&b);
+    if(a>b)
+    {
+        printf("A is Bigger");
+    }
+    else{
+        printf("B is Bigger");
+    }
+    
+}
+
+OUTPUT:1
+
+Enter A value: 20
+Enter B value: 50
+B is Bigger
+
+OUTPUT:2
+
+Enter A value: 100
+Enter B value: 40
+A is Bigger
